@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   web :
-    build :
+    image: "shiivajishelke14/notes-app:latest2"
       context : .
     ports :
       - "8000:8000"
