@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={ <NotesListPage/> } />
-          <Route path='/note/:id' element={ <NotePage/> } />
+          <Route path='/note/:id' element={ <NotePage_1/> } />
         </Routes>
         </div>
       </div>
