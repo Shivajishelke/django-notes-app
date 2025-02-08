@@ -17,11 +17,12 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={ <NotesListPage/> } />
-          <Route path='/note/:id' element={ <NotePage_1/> } />
+          <Route path='/note/:id' element={ <NotePage/> } />
         </Routes>
         </div>
       </div>
     </Router>
+<footer> end of the page</footer>
   );
 }
 
