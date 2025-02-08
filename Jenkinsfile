@@ -46,9 +46,9 @@ pipeline
         {
             steps
             {
-                echo "This is for Deploy"
-                sh "docker run -d -p 8000:8000 notes-app:latest1"
-            
+              
+                dockerpush("dockerHubCreds","notes-app","latest")
+                  
             }
         }
     }
